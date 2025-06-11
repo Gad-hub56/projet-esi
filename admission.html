@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Admission - École Supérieure d'Informatique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<img src="esi.jpg" alt="description de l'image" 
+width="20%"> 
+    <h1>Admission - École Supérieure d'Informatique</h1>
+    <nav>
+        <ul>
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="accademique.html">Académique</a></li>
+            <li><a href="admission.html">Admission</a></li>
+            <li><a href="galerie.html">Galerie</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Formulaire d'Admission</h2>
+        <p>Remplissez le formulaire ci-dessous pour postuler à l'École Supérieure d'Informatique.</p>
+
+        <form action="traitement.php" method="POST">
+            <label>Nom complet : <input type="text" name="nom" required></label><br>
+            <label>Email : <input type="email" name="email" required></label><br>
+            <label>Téléphone : <input type="tel" name="telephone" required></label><br>
+
+            <label>Département choisi :</label>
+            <select name="departement" required>
+                <option value="">-- Choisissez un département --</option>
+                <option>Sciences Informatiques</option>
+                <option>Ingénierie Logicielle</option>
+                <option>Cybersécurité</option>
+            </select><br>
+
+            <label>Lettre de motivation :</label><br>
+            <textarea name="motivation" rows="5" required></textarea><br>
+
+            <label>Joindre votre CV :</label>
+            <input type="file" name="cv" accept=".pdf,.doc,.docx"><br>
+
+            <input type="submit" value="Soumettre la demande">
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 École Supérieure d'Informatique de Bobo-Dioulasso - Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>

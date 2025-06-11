@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - École Supérieure d'Informatique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<img src="esi.jpg" alt="description de l'image" 
+width="20%"> 
+    <h1>Contact - École Supérieure d'Informatique</h1>
+    <nav>
+        <ul>
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="accademique.html">Académique</a></li>
+            <li><a href="admission.html">Admission</a></li>
+            <li><a href="galerie.html">Galerie</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Contactez-nous</h2>
+        <p>Besoin d'informations ? Remplissez le formulaire ci-dessous ou utilisez nos coordonnées.</p>
+
+        <form action="contact.php" method="POST">
+            <label>Nom complet : <input type="text" name="nom" required></label><br>
+            <label>Email : <input type="email" name="email" required></label><br>
+            <label>Sujet :</label>
+            <input type="text" name="sujet" required><br>
+            <label>Message :</label><br>
+            <textarea name="message" rows="5" required></textarea><br>
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+
+    <section id="infos">
+        <h3>Nos coordonnées</h3>
+        <p><strong>Adresse :</strong> Campus Universitaire, Bobo-Dioulasso, Burkina Faso</p>
+        <p><strong>Email :</strong> contact@esi-bobo.bf</p>
+        <p><strong>Téléphone :</strong> +226 20 97 27 64</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 École Supérieure d'Informatique de Bobo-Dioulasso - Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>

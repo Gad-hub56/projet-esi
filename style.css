@@ -1,0 +1,106 @@
+/* Styles généraux */
+body {
+    font-family: "Verdana", sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* En-tête */
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #005599;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #004080;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Contenu principal */
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 25px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+/* Styles pour la galerie */
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+figure {
+    width: 320px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+figure img {
+    width: 100%;
+    display: block;
+}
+
+figure img:hover {
+    transform: scale(1.08);
+}
+
+figcaption {
+    text-align: center;
+    font-size: 15px;
+    color: #333;
+    padding: 8px;
+    font-weight: bold;
+}
+
+/* Pied de page */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
