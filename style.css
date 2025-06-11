@@ -1,4 +1,4 @@
-/* Styles généraux */
+
 body {
     font-family: "Verdana", sans-serif;
     background-color: #f4f4f4;
@@ -7,7 +7,7 @@ body {
     color: #333;
 }
 
-/* En-tête */
+
 header {
     background-color: #003366;
     color: white;
@@ -21,7 +21,7 @@ header img {
     margin-bottom: 10px;
 }
 
-/* Navigation */
+
 nav ul {
     display: flex;
     justify-content: center;
@@ -59,7 +59,7 @@ main {
     border-radius: 8px;
 }
 
-/* Styles pour la galerie */
+
 .gallery {
     display: flex;
     justify-content: center;
@@ -93,7 +93,7 @@ figcaption {
     font-weight: bold;
 }
 
-/* Pied de page */
+
 footer {
     background-color: #003366;
     color: white;
